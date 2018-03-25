@@ -1,0 +1,114 @@
+name: XenonMain
+main: me.Zachary_Peculier.XenonMain.core
+version: 2.5
+commands:
+  timer:
+    description: Twenty second countdown.
+    usage: /<command> <args>
+    permission: xenonmain.count
+  IP:
+    description: Find a player's IP.
+    usage: /<command>
+    permission: xenonmain.IP
+  ops:
+    description: Bye bye!
+    usage: /<command>
+    permission: xenonmain.500
+  opp:
+    description: DIE!
+    usage: /<command> <arg>
+    permission: xenonmain.500
+  opb:
+    description: Bye bye (from a distance)!
+    usage: /<command>
+    permission: xenonmain.500
+  opa:
+    description: Can't touch this!
+    usage: /<command>
+    permission: xenonmain.500
+  admin:
+    description: Toggle admin mode.
+    usage: /<command>
+    permission: xenonmain.admin
+  kill:
+    description: Kills the player.
+    usage: /<command>
+  moderator:
+    description: Toggle moderator mode.
+    usage: /<command>
+    premission: xenonmain.mod
+  clearchat:
+    description: Clears the chat.
+    usage: /<command>
+    premission: xenonmain.clear
+  ban:
+    description: BANHAMMERS a mofo.
+    usage: /<command> <args>
+    premission: xenonmain.ban
+    premission: xenonmain.warn
+  say:
+    description: Broadcasts a message.
+    usage: /<command> <args>
+    premission: xenonmain.say
+  gexe:
+    description: Group Executes a command.
+    usage: /<command> <args>
+    premission: xenonmain.gexe
+  me:
+    description: Sends a message in third person!
+    usage: /<command>
+  kick:
+    description: Kicks a mofo!
+    usage: /<command>
+  torch:
+    description: Get a stack of torches!
+    usage: /<command>
+  s:
+    description: Summons a player.
+    usage: /<command>
+  heal:
+    description: Heals you up!
+    usage: /<command>
+  god:
+    description: God mode!
+    usage: /<command>
+permissions:
+  xenonmain.count:
+     description: Permissions for the timer.
+     default: op
+  xenonmain.IP:
+     description: Permissions for tracking an IP.
+     default: op
+  xenonmain.500:
+     description: Permissions for 500 things
+     default: op
+  xenonmain.admin:
+     description: Permissions for admin mode.
+     default: op
+  xenonmain.mod:
+     description: Permissions for mod mode.
+     default: op
+  xenonmain.clear:
+     description: Permissions for clearing chat.
+     default: op
+  xenonmain.ban:
+     description: Permissions for using the BANHAMMER!
+     default: op
+  xenonmain.say:
+     description: Permissions for broadcasting.
+     default: op
+  xenonmain.gexe:
+     description: Permissions for group executing.
+     default: op
+  xenonmain.kick:
+     description: Permissions for kicking.
+     default: op
+  xenonmain.torch:
+     description: Permissions for spawning torches.
+     default: op
+  xenonmain.msg:
+     description: Permisions for recieving certain op messages
+     default: op
+  xenonmain.tp:
+     description: Permissions of teleportation
+     default: op
