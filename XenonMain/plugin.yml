@@ -41,11 +41,6 @@ commands:
     description: Clears the chat.
     usage: /<command>
     premission: xenonmain.clear
-  ban:
-    description: BANHAMMERS a mofo.
-    usage: /<command> <args>
-    premission: xenonmain.ban
-    premission: xenonmain.warn
   say:
     description: Broadcasts a message.
     usage: /<command> <args>
