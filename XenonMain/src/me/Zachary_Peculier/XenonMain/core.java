@@ -51,13 +51,7 @@ public class core extends JavaPlugin
         milk.addIngredient(1, Material.BOWL);
         getServer().addRecipe(milk);
         plm.registerEvents(this.mpl, this);
-        registerPayroll();
         getServer().getWorld("hardcore").setSpawnLocation(0, 69, 0);
-    }
-
-    private void registerPayroll()
-    {
-
     }
 
     @SuppressWarnings(
